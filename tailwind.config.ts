@@ -13,6 +13,9 @@ const config: Config = {
       },
     },
     extend: {
+      width: {
+        '2/7': '32%', // Define your custom width class here
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
